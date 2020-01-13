@@ -13,11 +13,11 @@ The first step with using Tyra is customizing your metadata in `gatsby-config.js
 ```javascript
 siteMetadata: {
   navbarLinks: [
-    {to: "/makeup", name: "Makeup"},
-    {to: "/lifestyle", name: "Lifestyle"},
-    {to: "/blog", name: "blog"},
+    {to: "/about", name: "About"},
+    {to: "/team", name: "Team"},
+    {to: "/events", name: "Events"},
   ],
-  title: "", // The name of your blog
+  title: "Women in Computer Science, Statistics, and Mathematics UTSC", // The name of your blog
   description: "", // SEO Description
   siteUrl: "", // Base URL of your blog (https://example.com)
   homepageHeader: "", // Header text for the homepage

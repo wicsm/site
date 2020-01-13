@@ -39,7 +39,7 @@ export const dataQuery = graphql`
         title
       }
     }
-    banner: file(relativePath: {eq: "img/about__banner.jpg"}) {
+    banner: file(relativePath: {eq: "img/DSC08340.jpg"}) {
       childImageSharp {
         fluid(maxHeight: 720, maxWidth: 1920) {
           ...GatsbyImageSharpFluid

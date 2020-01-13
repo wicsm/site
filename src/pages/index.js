@@ -14,20 +14,6 @@ export default ({ data }) => {
       <Seo
         title={"Home Page"}
         description={data.site.siteMetadata.description} />
-      <Hero
-        title={post.frontmatter.title}
-        image={post.frontmatter.postImage.childImageSharp.fluid}
-        to={post.frontmatter.slug}
-        description={post.frontmatter.description} />
-      <div className="flex flex-wrap center mw9 justify-around pb3">
-        {data.cards.edges.map(({node}) => (
-          <Card
-            title={node.frontmatter.title}
-            image={node.frontmatter.postImage.childImageSharp.fluid}
-            to={node.frontmatter.slug}
-            description={node.frontmatter.description} />
-        ))}
-      </div>
       <About />
       <Bio />
     </Layout>
